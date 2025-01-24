@@ -1,6 +1,10 @@
 library(shiny)
-library(tidyverse)
+library(ggplot2)
+library(tibble)
+library(dplyr)
 library(ggtext)
+library(scales)
+library(purrr)
 options(shiny.useragg = TRUE)
 rpi <- function(x,
          mu = 500,
