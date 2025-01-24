@@ -179,7 +179,7 @@ server <- function(input, output, session) {
             p <- (1 + 9^((difficulty_diff + 500 - w)/(20))) ^ (-1)
             
             difficulty_w <- input$w - logit * 20 / log(9)
-            subtitlemessage <- paste0("When this student encounters items the stuent can answer correctly ",input$criterion_student * 100,"% of the time, peers of average ability have a ",rpi_denominator,"% chance of answering them correctly.")
+            subtitlemessage <- paste0("When this student encounters items the student can answer correctly ",input$criterion_student * 100,"% of the time, peers of average ability have a ",rpi_denominator,"% chance of answering them correctly.")
 
         }
         
