@@ -1,0 +1,1 @@
+The Woodcock-Johnson family of assessment tools calculates the relative proficiency index indicating the probability a student can answer any item correctly when an average same-age peer can answer it correctly 90% of the time. This app generalizes the relativel proficiency index to any criterion level.
